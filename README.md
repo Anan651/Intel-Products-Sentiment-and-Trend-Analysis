@@ -106,6 +106,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## **Contact**
 For any questions or suggestions, feel free to reach out to:
 - **Your Name**: [ananahmedomar@gmail.com]
-- GitHub: [https://github.com/<your_username>](https://github.com/<your_Anan651>)
+- GitHub: [https://github.com/<Anan651>]
 
 ---
