@@ -91,13 +91,6 @@ Confusion Matrix:
  [ 2  3 40]]
 ```
 
-### Confusion Matrix Visualization:
-![Confusion Matrix Example](![download](https://github.com/user-attachments/assets/17d37762-0050-4359-8650-8630e9e48338)
-)
-)
-
----
-
 ## **Customization**
 This project is easily extensible. To adapt for other sentiment analysis tasks:
 1. Replace the dataset with your custom data.
