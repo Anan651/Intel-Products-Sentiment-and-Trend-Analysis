@@ -33,7 +33,7 @@ This project demonstrates a sentiment analysis system built using a pre-trained 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<your_username>/<your_repo_name>.git
+    git clone https://github.com/Anan651/Intel-Products-Sentiment-and-Trend-Analysis.git
     cd Intel-Products-Sentiment-and-Trend-Analysis
     ```
 
