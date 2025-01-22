@@ -1,0 +1,55 @@
+# Sentiment Analysis with BERT
+
+This project evaluates sentiment on a dataset using a pre-trained BERT model (`cardiffnlp/twitter-roberta-base-sentiment`).
+
+## Features
+- Sentiment analysis using BERT.
+- Supports evaluation metrics (accuracy, precision, recall, F1-score).
+- Visualizes results with a confusion matrix.
+
+## Prerequisites
+- Python 3.8 or later
+- CUDA support (optional for GPU acceleration)
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone <repository_url>
+    cd <repository_name>
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Download the required models:
+    ```bash
+    python -m spacy download en_core_web_sm
+    ```
+
+## Usage
+
+1. Place your dataset in the same folder as `app.py`. Ensure it has the following structure:
+
+    | title          | content                       | rating |
+    |----------------|-------------------------------|--------|
+    | Great movie!   | I loved it!                   | 2      |
+    | Not great      | It was boring and predictable | 0      |
+
+2. Run the script:
+    ```bash
+    python app.py --data_path <path_to_csv>
+    ```
+
+3. View metrics and confusion matrix.
+
+## Output
+- Evaluation metrics (accuracy, precision, recall, F1-score)
+- Confusion matrix visualization.
+
+## Repository Structure
+- `app.py`: Main application script.
+- `requirements.txt`: List of dependencies.
+- `README.md`: Documentation.
