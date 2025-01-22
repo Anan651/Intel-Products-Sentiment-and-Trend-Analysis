@@ -1,2 +1,1 @@
-# Intel-Products-Sentiment-and-Trend-Analysis
-
+# Sentiment Analysis with BERT
